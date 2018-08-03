@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed790948-0b76-420e-94bf-4e4be2b231f8">
+  <producedTypes>
+    <objectType typeId="c3f9d5b6-c70b-4472-ad06-c21d104a073b" valueTypeId="a3318f80-8a9d-431c-b1a8-9d96959d5569"/>
+    <managerType typeId="6504790b-67e9-41ca-8e96-a3bb5261328b" valueTypeId="f89c529c-1d9f-4a7b-9f56-c20cdf8e81d3"/>
+  </producedTypes>
+  <name>Макет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="0d72364c-7e88-4835-a604-b6ad6df6fc8d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

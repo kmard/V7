@@ -31,4 +31,5 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <dataProcessors>DataProcessor.Макет</dataProcessors>
 </mdclass:Configuration>
