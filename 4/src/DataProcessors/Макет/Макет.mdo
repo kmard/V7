@@ -30,4 +30,16 @@
     </synonym>
     <comment></comment>
   </templates>
+  <commands uuid="25c19a26-3a16-4ba8-92db-826ea08cfac8">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:DataProcessor>
