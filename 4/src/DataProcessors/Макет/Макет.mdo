@@ -10,6 +10,16 @@
     <value>Макет</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Макет.Form.Форма</defaultForm>
+  <forms uuid="bca54427-0910-48a8-9ebe-44d0da326328">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="0d72364c-7e88-4835-a604-b6ad6df6fc8d">
     <name>Макет</name>
     <synonym>
