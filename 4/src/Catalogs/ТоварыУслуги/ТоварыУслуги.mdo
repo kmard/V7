@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6732f4a6-4651-405c-aa1c-8d8dcd5524c8">
+  <producedTypes>
+    <objectType typeId="21973ad6-9272-410f-ac2b-b6abb8e267a3" valueTypeId="b2d33edc-6b43-41d9-aeb9-ef1a4f10cb08"/>
+    <refType typeId="baa5729c-3eb8-4d43-8744-3436ccfd2f82" valueTypeId="5f5c145b-a0c4-485e-b272-26088b20d0ed"/>
+    <selectionType typeId="2ea729b6-aec3-4521-9e97-43ad60c42369" valueTypeId="6bac375b-36e0-4829-8537-1f444f3da9e4"/>
+    <listType typeId="176971c3-5cc2-4eac-bf08-6bf52c707c4b" valueTypeId="1d79b81e-d19e-4aeb-b3d4-bece7051ff2f"/>
+    <managerType typeId="d8a41392-2ff2-410a-9442-e2c24f8e8c0e" valueTypeId="a0171811-79fa-4858-b033-e8c9a4375445"/>
+  </producedTypes>
+  <name>ТоварыУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары услуги</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТоварыУслуги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТоварыУслуги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="18d55269-ce89-4adb-81da-3b749101447b">
+      <name>Товар1</name>
+      <description>Товар1</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТоварыУслуги.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="fadce8c4-ac46-4a7c-bf4d-af13037bfccc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b9687a38-787b-4caa-833a-3b0b6e7d10c9">
+    <name>Печать</name>
+    <comment></comment>
+  </templates>
+  <commands uuid="63034d12-adfa-4ce3-a39a-31bb7d04541a">
+    <name>Печать</name>
+    <comment></comment>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.ТоварыУслуги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

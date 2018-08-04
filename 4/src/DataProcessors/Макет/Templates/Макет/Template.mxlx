@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
-		<currentLanguage>ru</currentLanguage>
+		<currentLanguage/>
 		<defaultLanguage>ru</defaultLanguage>
 	</languageSettings>
 	<columns>
@@ -12,6 +12,7 @@
 		<row>
 			<c>
 				<c>
+					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -21,8 +22,8 @@
 				</c>
 			</c>
 			<c>
-				<i>1</i>
 				<c>
+					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -32,8 +33,8 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
+					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -46,8 +47,5 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<height>1</height>
-	<viewSettings>
-		<showNamedRowsAndColumns>false</showNamedRowsAndColumns>
-		<showNamedRowsAndColumnsText>false</showNamedRowsAndColumnsText>
-	</viewSettings>
+	<vgRows>1</vgRows>
 </document>

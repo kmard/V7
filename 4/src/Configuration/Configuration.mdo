@@ -31,5 +31,6 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.ТоварыУслуги</catalogs>
   <dataProcessors>DataProcessor.Макет</dataProcessors>
 </mdclass:Configuration>

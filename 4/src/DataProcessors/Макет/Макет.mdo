@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Макет</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Макет.Form.Форма</defaultForm>
   <forms uuid="bca54427-0910-48a8-9ebe-44d0da326328">
@@ -17,6 +18,7 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -26,5 +28,6 @@
       <key>ru</key>
       <value>Макет</value>
     </synonym>
+    <comment></comment>
   </templates>
 </mdclass:DataProcessor>
