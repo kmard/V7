@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fea26615-e62f-4b45-a32f-7fbb9829fbd8">
+  <producedTypes>
+    <objectType typeId="edcc9e3a-045a-43af-9028-20578db96096" valueTypeId="748c50fe-95b2-4584-afbc-a46d572a0f68"/>
+    <refType typeId="d264f2f7-bc9a-48d4-bbbe-9131e688c40d" valueTypeId="d03520b9-c3f7-447c-8c28-3fdfa0e6ea3c"/>
+    <selectionType typeId="d76b56da-c2e0-43cf-ad29-174225a1888d" valueTypeId="5191c841-e4a9-4806-9400-25188a2caa9e"/>
+    <listType typeId="e675812d-8a37-4466-8b4a-59236f80d48c" valueTypeId="29197d60-0a0d-4d48-b88e-aa66e95b6fa6"/>
+    <managerType typeId="f41c2597-30fa-433d-89d0-fa932a69b1fa" valueTypeId="eccd92f7-f615-42a6-843f-c6b8f62f4735"/>
+  </producedTypes>
+  <name>ТоварыУслуги</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="92a4ea41-0b51-4017-84cb-e1e08b5fbf0b">
+    <name>БазоваяЕденицаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая еденица измерения</value>
+    </synonym>
+    <comment></comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Расш1_ЕдИзм</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ТоварыУслуги.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="61f53177-45a6-4236-a4fb-ea02310a9ce0">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

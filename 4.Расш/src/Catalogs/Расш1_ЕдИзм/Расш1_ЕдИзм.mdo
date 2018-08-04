@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeb3d982-8262-40e2-bf7c-8fc2c5fab42d">
+  <producedTypes>
+    <objectType typeId="382b342b-91d7-4f56-b89c-f2069cea5c00" valueTypeId="85067000-78ba-4b05-b909-e2823422056f"/>
+    <refType typeId="42e34bd9-089a-4a55-8798-c24a391a0e94" valueTypeId="fcce282c-79b3-4e45-a007-20c949588e6f"/>
+    <selectionType typeId="ab6641da-6532-4bb4-8c03-906843068533" valueTypeId="99d16c2e-5d9f-4da9-9755-a112efefd100"/>
+    <listType typeId="c0206bfd-f15b-4a49-a702-884ae0110add" valueTypeId="736e9178-03b2-487c-9784-c3a4ae76c646"/>
+    <managerType typeId="7b36ce7b-8206-4f6d-880d-856bf2b7a5ce" valueTypeId="bf587f1e-b657-4800-8f47-d328a16d1ef3"/>
+  </producedTypes>
+  <name>Расш1_ЕдИзм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ед изм</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_ЕдИзм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Расш1_ЕдИзм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ТоварыУслуги</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4b1e272a-afa4-42ee-a115-a311051e2c6f">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
