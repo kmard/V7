@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c46d2859-1c9a-4ba0-bfce-af5fb44cb644">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c46d2859-1c9a-4ba0-bfce-af5fb44cb644">
   <producedTypes>
     <objectType typeId="d7f306f3-61cb-4a99-acf9-948fd7ab0f80" valueTypeId="e94e0f53-c87f-47aa-a0bb-4b2966582f3f"/>
     <refType typeId="16bfbcb4-9747-4de0-bcf4-47dacfcb757c" valueTypeId="3df21580-458f-420b-987b-330ae7c6c406"/>
@@ -24,22 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="93f27f20-8a55-4df6-acf2-b2e50582886f">
-      <name>Белдыев</name>
-      <description>Белдыев</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-    <items id="04f66478-b41d-4f14-a778-318b330619fe">
-      <name>Амазон</name>
-      <description>Амазон</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

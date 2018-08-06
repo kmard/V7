@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5f3fd2-9926-4851-9dc5-5544f107acd8">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5f3fd2-9926-4851-9dc5-5544f107acd8">
   <producedTypes>
     <objectType typeId="822f1ac1-b34a-4318-b082-9f836101590a" valueTypeId="bed45417-2d4e-47f4-90db-e006356ff570"/>
     <refType typeId="608b2090-d98b-4b88-b2a6-60ad69172455" valueTypeId="37c5758b-0384-4841-9cfb-e1f9bc273a1b"/>
@@ -28,6 +28,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b2894fd2-91c7-492c-a937-a8ee1680b634">
+      <name>Белдыев</name>
+      <description>Белдыев</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4112efbd-893a-45c3-8d49-d317a6ed21d4">
+      <name>Кравцов</name>
+      <description>Кравцов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>
