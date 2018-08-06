@@ -33,5 +33,6 @@
   </languages>
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.ТоварыУслуги</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <dataProcessors>DataProcessor.Макет</dataProcessors>
 </mdclass:Configuration>

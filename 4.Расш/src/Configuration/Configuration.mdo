@@ -44,4 +44,5 @@
   </languages>
   <catalogs>Catalog.ТоварыУслуги</catalogs>
   <catalogs>Catalog.Расш1_ЕдИзм</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
 </mdclass:Configuration>

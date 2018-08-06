@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91ccc6f2-94a5-490b-9e15-f610eab4cf36">
+  <producedTypes>
+    <objectType typeId="4c1cc44a-b439-4801-b09e-ec7bf68bbd0a" valueTypeId="b8d648a7-b1f1-4b11-8133-410863ff849f"/>
+    <refType typeId="3a7f87fc-9f1a-4bc3-a741-b1a98e22d09a" valueTypeId="9b8a1fd4-2526-4f73-9833-baf8dc2634e8"/>
+    <selectionType typeId="fcef4da6-ec63-4274-a7ec-eee69d48bc3c" valueTypeId="6b53ba7b-8809-4aa9-a9eb-877bb8e6a086"/>
+    <listType typeId="8bbe432f-9b51-4537-bf78-fbee563a5cbe" valueTypeId="f1303c02-5203-4e66-b556-b9d3a577fd33"/>
+    <managerType typeId="4a65dabc-e6c5-4b14-9b50-4956bf3b8fbc" valueTypeId="a45525a4-263c-4cc4-bded-eed3469d6d94"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="858cb0eb-9a2a-4a3e-b30f-759413b9717c">
+      <name>Ромашка</name>
+      <description>Ромашка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="59768c2e-3ad5-414d-9f93-78a0039774f7">
+      <name>Букашка</name>
+      <description>Букашка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
