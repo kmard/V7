@@ -45,4 +45,5 @@
   <catalogs>Catalog.ТоварыУслуги</catalogs>
   <catalogs>Catalog.Расш1_ЕдИзм</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
 </mdclass:Configuration>
