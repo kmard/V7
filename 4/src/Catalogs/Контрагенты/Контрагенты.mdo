@@ -30,6 +30,20 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="b2894fd2-91c7-492c-a937-a8ee1680b634">
+      <name>Белдыев</name>
+      <description>Белдыев</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4112efbd-893a-45c3-8d49-d317a6ed21d4">
+      <name>Кравцов</name>
+      <description>Кравцов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
     <items id="a079bd25-6ef6-4b9e-a825-f36c4315f911">
       <name>Эл</name>
       <description>Эл</description>
