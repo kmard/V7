@@ -5,13 +5,11 @@
     <managerType typeId="294d23c4-ded9-4a99-b5b9-0ca4afb6489a" valueTypeId="a15077ea-8096-48c1-982e-06df41d553ae"/>
   </producedTypes>
   <name>Макет</name>
-  <comment></comment>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
   <useStandardCommands>true</useStandardCommands>
   <templates uuid="33ff85fa-3a7e-4fe5-ab03-4ca7a5b49e1f">
     <name>Макет</name>
-    <comment></comment>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicTemplateExtension">
       <template>Extended</template>

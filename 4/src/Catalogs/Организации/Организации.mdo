@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Организации</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
