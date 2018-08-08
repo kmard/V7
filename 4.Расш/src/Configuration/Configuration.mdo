@@ -43,6 +43,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ТоварыУслуги</catalogs>
   <catalogs>Catalog.Расш1_ЕдИзм</catalogs>
   <catalogs>Catalog.Организации</catalogs>

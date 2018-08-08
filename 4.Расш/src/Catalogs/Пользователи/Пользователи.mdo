@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92b6b479-c1da-440d-ab17-32fc07d30b4c">
+  <producedTypes>
+    <objectType typeId="8af5e691-e101-47e1-8d81-e43cf0f89a66" valueTypeId="d8e9e587-2894-4fc4-8573-1dc2baea883e"/>
+    <refType typeId="a594eb8e-4bf2-4418-81c5-5c93b7d8ce77" valueTypeId="d30111fd-b796-4523-bca0-03418b241acd"/>
+    <selectionType typeId="6807bc6d-10e5-4859-a5be-8d73d921aed1" valueTypeId="792e8bf7-2936-40d3-9a02-ef5fdb7ce30f"/>
+    <listType typeId="9d9bd1ce-7f7d-43c8-bf11-c4d9c9e84169" valueTypeId="021185f1-2629-463e-aeca-07ff5fdd1bc6"/>
+    <managerType typeId="d0495438-bd89-41d7-a0b9-8a9c346a9448" valueTypeId="d1ce1aca-1f60-48f6-9cb6-41028b8cad4b"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dbaa129f-ec9d-4974-bf4e-5c1c23c2d71e">
+    <name>Расш1_ДоступРазрешен</name>
+    <synonym>
+      <key>ru</key>
+      <value>доступ разрешен</value>
+    </synonym>
+    <comment></comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="2d57405a-571e-4b91-9252-16029f672e3c">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

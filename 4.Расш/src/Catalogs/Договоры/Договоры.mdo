@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e08d6201-1d88-4803-bfb6-d7f43adcf6df">
+  <producedTypes>
+    <objectType typeId="9e20bf68-d22d-4131-b7be-cf2faae24c95" valueTypeId="cc19dcc5-84da-445f-87d3-7afbc01f3f81"/>
+    <refType typeId="f2cc52ea-ad4c-4c84-a120-eab267ccb465" valueTypeId="b17e65d7-428e-4e52-9662-566e46eddcdf"/>
+    <selectionType typeId="b828ab56-c201-4998-a4f6-22a97d1f10bc" valueTypeId="e5400a5f-e875-4fae-afed-528593dc8e9e"/>
+    <listType typeId="c3468898-d8d3-469f-97f5-82462caf07cf" valueTypeId="b43e86b0-17a8-46dc-8d8a-77f31a94a701"/>
+    <managerType typeId="2632652c-4413-496c-9c12-36a2ca1e3d93" valueTypeId="646ec51b-5ead-4411-9779-a1656094be10"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <owners>Checked</owners>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>45</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="03273cff-511c-4c3e-aa8f-28b5fde9cceb">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>
