@@ -32,7 +32,11 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <sessionParameters>SessionParameter.ТекПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ТоварыУслуги</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>

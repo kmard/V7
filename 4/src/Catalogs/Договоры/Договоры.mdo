@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1d3c79d-3c88-4dd3-a2d0-8e54e3f30b1c">
+  <producedTypes>
+    <objectType typeId="af357add-8804-41c2-99bf-99340e330c16" valueTypeId="8e636e00-abaf-48d7-acb0-0ab9749533cd"/>
+    <refType typeId="3ef179ae-43ac-491c-8452-888a5e4254c7" valueTypeId="733c0ad0-b6ad-43a1-a5ec-77880f497190"/>
+    <selectionType typeId="b2db7964-9a82-432f-8299-37edf670ea69" valueTypeId="0fb004db-928e-4faa-9d44-cc1afb951f41"/>
+    <listType typeId="3754531a-96b3-45e8-b451-5ad39f5c5c9b" valueTypeId="0529c1a4-2266-41a2-a3e7-9e6724c30cc5"/>
+    <managerType typeId="32630d54-cf92-45c2-8bde-71487f7d060b" valueTypeId="fc78f62a-123a-4653-9b97-21d7dcbd69e3"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>45</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="277cb5e5-ff1f-4bc4-90e8-b76c39719f90">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

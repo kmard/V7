@@ -12,4 +12,5 @@
   <content>Catalog.Организации</content>
   <content>Catalog.Контрагенты</content>
   <content>DataProcessor.Макет</content>
+  <content>Catalog.Договоры</content>
 </mdclass:Subsystem>
