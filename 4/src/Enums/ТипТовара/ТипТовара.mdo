@@ -29,4 +29,11 @@
     </synonym>
     <comment></comment>
   </enumValues>
+  <enumValues uuid="424583fe-8de3-48c1-8028-ea0a1073c536">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
