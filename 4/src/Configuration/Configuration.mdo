@@ -40,5 +40,7 @@
   <catalogs>Catalog.ТоварыУслуги</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <enums>Enum.ТипТовара</enums>
   <dataProcessors>DataProcessor.Макет</dataProcessors>
 </mdclass:Configuration>

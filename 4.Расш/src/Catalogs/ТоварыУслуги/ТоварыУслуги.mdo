@@ -53,6 +53,18 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="25912437-fcfa-4720-be36-e76afb2ec778">
+    <name>ТипТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>EnumRef.ТипТовара</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="61f53177-45a6-4236-a4fb-ea02310a9ce0">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

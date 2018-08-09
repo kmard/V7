@@ -13,4 +13,5 @@
   <content>Catalog.Контрагенты</content>
   <content>DataProcessor.Макет</content>
   <content>Catalog.Договоры</content>
+  <content>Catalog.Склады</content>
 </mdclass:Subsystem>

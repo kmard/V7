@@ -49,5 +49,6 @@
   <catalogs>Catalog.Расш1_ЕдИзм</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <enums>Enum.ТипТовара</enums>
   <dataProcessors>DataProcessor.Макет</dataProcessors>
 </mdclass:Configuration>
